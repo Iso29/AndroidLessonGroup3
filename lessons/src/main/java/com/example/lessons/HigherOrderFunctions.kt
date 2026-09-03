@@ -20,6 +20,9 @@ fun main() {
 //    )
 //    println("result = ${result}")
 
+
+
+    //test main
     getNumberAndSum(
         success = { res ->
             println("Ugurlu netice : $res")
