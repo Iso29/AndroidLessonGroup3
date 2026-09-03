@@ -24,6 +24,19 @@ fun main() {
         success = { res ->
             println("Ugurlu netice : $res")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
             return@getNumberAndSum// global return
         },
         error = {
