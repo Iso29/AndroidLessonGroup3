@@ -3,7 +3,7 @@ package com.example.lessons
 fun main() {
     //tam
    var age = 23
-   var year : Short = 2026
+   var year : Short = 2025
    var weight : Long = 120
 
     //kesr
