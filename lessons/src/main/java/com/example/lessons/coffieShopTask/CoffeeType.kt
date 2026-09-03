@@ -177,6 +177,10 @@ class OrderManager(
 
     //write delete order function
 
+    fun deleteOrderFunction() {
+
+    }
+
     //write print order function
 }
 
