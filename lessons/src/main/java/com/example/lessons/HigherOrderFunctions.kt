@@ -26,7 +26,6 @@ fun main() {
     getNumberAndSum(
         success = { res ->
             println("Ugurlu netice : $res")
-
             return@getNumberAndSum// global return
         },
         error = {
