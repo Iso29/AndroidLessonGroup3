@@ -14,7 +14,6 @@ fun main() {
 class UserListManager(
     private val userRepository : UserRepo
 ) {
-
     fun getMyContact(): List<User> {
         return userRepository.getMyContact()
     }
