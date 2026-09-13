@@ -1,8 +1,13 @@
 package com.example.lessons.coffieShopTask
 
 fun main() {
-    val coffeeManager = CoffeeMenuManager()
-    coffeeManager.printMenu()
+    val coffeeManager = CoffeeMenuManager
+//    coffeeManager.printMenu()
+
+    val coffeeManager1 = CoffeeMenuManager
+
+    println(coffeeManager)
+    println(coffeeManager1)
 }
 
 enum class CoffeeType {
@@ -20,7 +25,8 @@ data class Coffee(
     }
 }
 
-class CoffeeMenuManager {
+object CoffeeMenuManager {
+
     private var coffeeMenu: ArrayList<Coffee> = ArrayList()
 
     init {
